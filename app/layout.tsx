@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'المؤتمر العلمي الدولي الثاني 2025',
   description: 'المؤتمر العلمي الدولي الثاني - التعليم المعاصر... ابتكار وتحوّل مستدام',
-    generator: 'v0.app'
+    
 }
 
 export default function RootLayout({

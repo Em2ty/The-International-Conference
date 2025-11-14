@@ -12,11 +12,11 @@ export function Header() {
           <div className="flex items-center gap-4 w-full sm:w-auto justify-center sm:justify-start">
             <div className="h-12 w-12 sm:h-16 sm:w-16 rounded-full overflow-hidden bg-white flex items-center justify-center flex-shrink-0">
               <Image
-                src="/ministry-logo.jpg"
+                src="/logo_navbar.png"
                 alt="شعار وزارة التربية"
                 width={64}
                 height={64}
-                className="object-cover"
+                className="h-10 w-10 sm:h-14 sm:w-14 object-contain"
               />
             </div>
             <div className="text-center sm:text-right">

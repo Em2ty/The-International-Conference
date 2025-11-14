@@ -1037,6 +1037,10 @@
     width: calc(var(--spacing) * 9);
   }
 
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
@@ -1831,6 +1835,10 @@
 
   .fill-primary {
     fill: var(--primary);
+  }
+
+  .object-contain {
+    object-fit: contain;
   }
 
   .object-cover {
@@ -4262,6 +4270,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:h-14 {
+      height: calc(var(--spacing) * 14);
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:h-16 {
       height: calc(var(--spacing) * 16);
     }
@@ -4282,6 +4296,12 @@
   @media (min-width: 40rem) {
     .sm\:w-8 {
       width: calc(var(--spacing) * 8);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:w-14 {
+      width: calc(var(--spacing) * 14);
     }
   }
 

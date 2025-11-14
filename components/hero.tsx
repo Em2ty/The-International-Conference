@@ -11,7 +11,7 @@ export function Hero() {
           <p>برعاية معالي وزير التربية</p>
           <p className="font-semibold">الدكتور إبراهيم نامس الجبوري المحترم</p>
           <p className="mt-2">وبإشراف المدير العام لتربية القادسية</p>
-          <p className="font-semibold">الأستاذ أحمد خربط الجليحاوي المحترم</p>
+          <p className="font-semibold">الأستاذ أحمد خرباط الجليحاوي المحترم</p>
         </div>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 text-balance px-2">
           المؤتمر العلمي الثاني الدوري السنوي
@@ -25,8 +25,8 @@ export function Hero() {
         <div className="text-xs sm:text-sm md:text-base opacity-80 mb-6 sm:mb-8 space-y-1 px-2">
           <p>بالتعاون مع:</p>
           <p>مركز البحوث والدراسات التربوية في وزارة التربية</p>
-          <p>كلية التربية في جامعة القادسية</p>
-          <p>الجمعية العراقية للرياضيات</p>
+          <p>كلية التربية/جامعة القادسية</p>
+          <p>جمعية الرياضيات العراقية</p>
         </div>
         <Button
           size="lg"

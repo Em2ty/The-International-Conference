@@ -78,6 +78,7 @@
     --color-white: #fff;
     --spacing: .25rem;
     --container-sm: 24rem;
+    --container-md: 28rem;
     --container-lg: 32rem;
     --container-4xl: 56rem;
     --container-6xl: 72rem;
@@ -1097,6 +1098,10 @@
     max-width: max-content;
   }
 
+  .max-w-md {
+    max-width: var(--container-md);
+  }
+
   .max-w-sm {
     max-width: var(--container-sm);
   }
@@ -1403,6 +1408,10 @@
 
   .gap-8 {
     gap: calc(var(--spacing) * 8);
+  }
+
+  .gap-40 {
+    gap: calc(var(--spacing) * 40);
   }
 
   :where(.space-y-1 > :not(:last-child)) {
@@ -1905,6 +1914,18 @@
     padding-inline: calc(var(--spacing) * 6);
   }
 
+  .px-16 {
+    padding-inline: calc(var(--spacing) * 16);
+  }
+
+  .px-20 {
+    padding-inline: calc(var(--spacing) * 20);
+  }
+
+  .px-40 {
+    padding-inline: calc(var(--spacing) * 40);
+  }
+
   .py-0\.5 {
     padding-block: calc(var(--spacing) * .5);
   }
@@ -1935,6 +1956,10 @@
 
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
+  }
+
+  .py-40 {
+    padding-block: calc(var(--spacing) * 40);
   }
 
   .pt-0 {
@@ -4316,6 +4341,12 @@
   @media (min-width: 40rem) {
     .sm\:max-w-lg {
       max-width: var(--container-lg);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:max-w-none {
+      max-width: none;
     }
   }
 

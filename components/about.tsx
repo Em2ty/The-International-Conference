@@ -14,10 +14,11 @@ export function About() {
             <p className="text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed mb-4 sm:mb-6">
               يقيم قسم الإشراف الاختصاصي في المديرية العامة لتربية القادسية مؤتمره العلمي الثاني الدوري السنوي بالتعاون مع مركز البحوث والدراسات التربوية في وزارة التربية، وكلية التربية في جامعة القادسية، والجمعية العراقية للرياضيات، للمدة 17–18 كانون الأول 2025.
             </p>
+            <div className='flex flex-col sm:flex-row justify-center gap-4 w-full max-w-md mx-auto sm:max-w-none'>
             <Button
               size="lg"
               variant="outline"
-              className="gap-2 w-full sm:w-auto"
+              className="gap-2 w-full sm:w-auto "
               asChild
             >
               <a
@@ -30,6 +31,23 @@ export function About() {
                 <span className="text-sm sm:text-base">تحميل الدليل الكامل للمؤتمر</span>
               </a>
             </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="gap-2 w-full sm:w-auto"
+              asChild
+            >
+              <a
+                href="https://drive.google.com/uc?export=download&id=1yTsXp5d416kYoVVeQ6Vw8APT2wYX7KBL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center "
+              >
+                <Download className="h-5 w-5 " />
+                <span className="text-sm sm:text-base">مجلة الوقائع 2 لسنة2025</span>
+              </a>
+            </Button>
+            </div>
           </div>
           {/* </CHANGE> */}
         </div>

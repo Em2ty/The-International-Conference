@@ -28,21 +28,8 @@ export function Hero() {
           <p>كلية التربية/جامعة القادسية</p>
           <p>جمعية الرياضيات العراقية</p>
         </div>
-        <Button
-          size="lg"
-          className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-base lg:text-lg"
-          asChild
-        >
-          <a
-            href="https://drive.google.com/uc?export=download&id=1_LOsXozEbWNcby-uJObhdJr9LPRYPqDZ"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2"
-          >
-            <Download className="h-4 w-4 sm:h-5 sm:w-5" />
-            تحميل وقائع المؤتمر (PDF)
-          </a>
-        </Button>
+        
+        
         <div className="mt-8 sm:mt-12 flex justify-center animate-bounce">
           <ChevronDown className="h-6 w-6 sm:h-8 sm:w-8 opacity-70" />
         </div>
